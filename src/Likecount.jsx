@@ -15,8 +15,8 @@ export default function Likecount(){
     return(
         <div>
             <h2>LikeCount:{count}</h2>
-            <button onClick={handleAdd}>Like</button>
-            <button onClick={handleReduce}>Dislike</button>
+            <button onClick={handleAdd}>Increase Likes</button>
+            <button onClick={handleReduce}>Decrease Likes</button>
         </div>
     )
 }
